@@ -7,5 +7,5 @@ class SparrowKernel
 {
   public:
     SparrowKernel();
-}
+};
 #endif /* KERNEL_H_ */
