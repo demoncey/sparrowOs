@@ -1,6 +1,6 @@
 #include "kernel.h"
 
-
+SpKernel *instance=0;
 
 
 
