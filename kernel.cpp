@@ -2,7 +2,7 @@
 
 
 
-Kernel::Kernel(){};
+SparrowKernel::SparrowKernel(){};
 
 
 

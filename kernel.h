@@ -3,9 +3,9 @@
 #include <Arduino.h>
 
 
-class Kernel
+class SparrowKernel
 {
   public:
-    Kernel();
+    SparrowKernel();
 }
 #endif /* KERNEL_H_ */
