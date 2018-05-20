@@ -15,7 +15,7 @@ class SpKernel
     static SpKernel *instance;
     SpKernel();
   public:
-    SpKernel *getInstance();
+    static SpKernel *getInstance();
 	  void checkIfworks();
 };
 #endif /* KERNEL_H_ */
