@@ -8,7 +8,7 @@ void Kernel::checkIfworks(){
 
 Kernel* Kernel::getInstance(){
   if(instance){
-    instance=new SpKernel();
+    instance=new Kernel();
   }
   return instance;
 }
