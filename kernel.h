@@ -9,11 +9,13 @@
 #define GET_HEX_PTR(ptr) (uint16_t)(ptr)
 
 
-
 class SpKernel
 {
-  public:
+  private:
+    static SpKernel *instance;
     SpKernel();
+  public:
+    SpKernel *getInstance();
 	  void checkIfworks();
 };
 #endif /* KERNEL_H_ */

@@ -9,6 +9,15 @@ void SpKernel::checkIfworks(){
 };
 
 
+SpKernel* SpKernel::checkIfworks(){
+  if(instance){
+    instance=new SpKernel():
+  }
+  return instance;
+};
+
+
+
 
 
 
