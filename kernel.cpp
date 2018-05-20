@@ -1,19 +1,19 @@
 #include "kernel.h"
 
-SpKernel *SpKernel::instance=0;
+Kernel *Kernel::instance=0;
 
-void SpKernel::checkIfworks(){
+void Kernel::checkIfworks(){
 	SERIAL_LOGGER("works fine!!!!!");
 }
 
-SpKernel* SpKernel::getInstance(){
+Kernel* Kernel::getInstance(){
   if(instance){
     instance=new SpKernel();
   }
   return instance;
 }
 
-SpKernel::SpKernel(){}
+Kernel::Kernel(){}
 
 
 
