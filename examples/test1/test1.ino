@@ -9,6 +9,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  SpKernel::getInstance()->checkIfworks();
+  Kernel::getInstance()->checkIfworks();
   delay(1000);
 }
