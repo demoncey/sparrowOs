@@ -14,6 +14,6 @@ class SparrowKernel
 {
   public:
     SparrowKernel();
-	void checkIfworks():
+	  void checkIfworks();
 };
 #endif /* KERNEL_H_ */
