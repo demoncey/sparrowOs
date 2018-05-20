@@ -5,15 +5,15 @@
 
 
 
-#define SERIAL_LOGGER1(msg) (Serial)?Serial.println((msg)):0
+#define SERIAL_LOGGER(msg) (Serial)?Serial.println((msg)):0
 #define GET_HEX_PTR(ptr) (uint16_t)(ptr)
 
 
 
-class SparrowKernel
+class SpKernel
 {
   public:
-    SparrowKernel();
+    SpKernel();
 	  void checkIfworks();
 };
 #endif /* KERNEL_H_ */

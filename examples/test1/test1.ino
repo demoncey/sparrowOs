@@ -1,6 +1,6 @@
 #include <kernel.h>
 
-SparrowKernel kernel;
+SpKernel kernel;
 void setup() {
   // put your setup code here, to run once:
 
