@@ -10,7 +10,7 @@ void SpKernel::checkIfworks(){
 
 SpKernel* SpKernel::getInstance(){
   if(instance){
-    instance=new SpKernel():
+    instance=new SpKernel();
   }
   return instance;
 };
