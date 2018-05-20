@@ -3,8 +3,9 @@
 #include <Arduino.h>
 
 
-
-
-
-
+class Kernel
+{
+  public:
+    Kernel();
+}
 #endif /* KERNEL_H_ */
