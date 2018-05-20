@@ -4,7 +4,7 @@
 
 SparrowKernel::SparrowKernel(){};
 
-SparrowKernel::checkIfworks(){
+void SparrowKernel::checkIfworks(){
 	SERIAL_LOGGER("works fine!!!!!");
 };
 
