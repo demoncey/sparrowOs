@@ -8,8 +8,7 @@ void SpKernel::checkIfworks(){
 	SERIAL_LOGGER("works fine!!!!!");
 };
 
-
-SpKernel* SpKernel::checkIfworks(){
+SpKernel* SpKernel::getInstance(){
   if(instance){
     instance=new SpKernel():
   }
