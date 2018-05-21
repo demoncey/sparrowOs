@@ -12,10 +12,12 @@
 class Kernel
 {
   private:
+    //mem leak
     static Kernel *instance;
     Kernel();
   public:
     static Kernel *getInstance();
+    void showPointer();
 	  void checkIfworks();
 };
 #endif /* KERNEL_H_ */
