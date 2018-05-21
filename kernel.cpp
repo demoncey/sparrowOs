@@ -10,6 +10,7 @@ void Kernel::checkIfworks(){
 void Kernel::showPointer(){
   if(instance){
     SERIAL_LOGGER(GET_HEX_PTR(instance));
+    SERIAL_LOGGER(GET_HEX_PTR(&instance));
   }else{
     SERIAL_LOGGER("instance empty");
   }
