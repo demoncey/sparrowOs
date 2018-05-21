@@ -16,7 +16,7 @@ void Kernel::showPointer(){
 }
 
 Kernel* Kernel::getInstance(){
-  if(instance){
+  if(!instance){
     instance=new Kernel();
   }
   return instance;

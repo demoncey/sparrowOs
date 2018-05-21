@@ -1,3 +1,5 @@
+
+
 #include <kernel.h>
 
 
@@ -10,5 +12,6 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   Kernel::getInstance()->checkIfworks();
+  Kernel::getInstance()->showPointer();
   delay(1000);
 }
