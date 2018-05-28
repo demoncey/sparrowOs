@@ -12,10 +12,10 @@ void Kernel::showPointer(){
   if(instance){
     SERIAL_LOGGER("obiekt");
     SERIAL_LOGGER(GET_HEX_PTR(instance));
-    SERIAL_LOGGER(instance);
+    SERIAL_LOGGER(GET_UINT_PTR(instance));
     SERIAL_LOGGER("pointer adress");
     SERIAL_LOGGER(GET_HEX_PTR(&instance));
-    SERIAL_LOGGER(&instance);
+    SERIAL_LOGGER(GET_UINT_PTR(&instance));
   }else{
     SERIAL_LOGGER("instance empty");
   }
