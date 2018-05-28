@@ -1,6 +1,7 @@
 
 
 #include <kernel.h>
+#include <logger.h>
 
 static int a;
 class Test{

@@ -9,6 +9,7 @@ void setup() {
 
 void loop() {
   SERIAL_LOGGER(GET_HEX_PTR(&KernelX::getInstance()));
+  SERIAL_LOGGER(GET_UINT_PTR(&KernelX::getInstance()));
   SERIAL_LOGGER("DDDDD");
   delay(1000);
 }
