@@ -1,5 +1,5 @@
 #include <kernelx.h>
-
+#include <logger.h>
 KernelX a;
 void setup() {
   // put your setup code here, to run once:
@@ -8,7 +8,7 @@ void setup() {
 }
 
 void loop() {
-  SERIAL_LOGGERX(GET_HEX_PTRX(&KernelX::getInstance()));
-  SERIAL_LOGGERX("DDDDD");
+  SERIAL_LOGGER(GET_HEX_PTR(&KernelX::getInstance()));
+  SERIAL_LOGGER("DDDDD");
   delay(1000);
 }
