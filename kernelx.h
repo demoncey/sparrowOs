@@ -13,11 +13,13 @@ class KernelX
 {
   private:
     //mem leak
-    static KernelX instance;
+    //static KernelX instance;
     
   public:
     KernelX();
     static KernelX &getInstance();
+    KernelX(KernelX const&)= delete;
+    void operator=(KernelX const&)  = delete;
     void showPointer();
 	  void checkIfworks();
 };

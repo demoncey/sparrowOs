@@ -11,6 +11,7 @@ void KernelX::showPointer(){
 }
 
 Kernel& Kernel::getInstance(){
+  static KernelX instance;
   return instance;
 }
 
