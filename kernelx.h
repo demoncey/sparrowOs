@@ -5,9 +5,9 @@
 
 
 
-#define SERIAL_LOGGERX(msg) (Serial)?Serial.println((msg)):0
-#define GET_UINT_PTRX(ptr) (uint16_t)(ptr)
-#define GET_HEX_PTRX(ptr) String((uint16_t)(ptr),HEX)
+//#define SERIAL_LOGGERX(msg) (Serial)?Serial.println((msg)):0
+//#define GET_UINT_PTRX(ptr) (uint16_t)(ptr)
+//#define GET_HEX_PTRX(ptr) String((uint16_t)(ptr),HEX)
 
 class KernelX
 {
