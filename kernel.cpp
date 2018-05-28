@@ -1,3 +1,4 @@
+#include "logger.h"
 #include "kernel.h"
 
 Kernel *Kernel::instance=0;
