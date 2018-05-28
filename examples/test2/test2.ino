@@ -8,6 +8,8 @@ void setup() {
 }
 
 void loop() {
+
+  showMemory()
   SERIAL_LOGGER(GET_HEX_PTR(&KernelX::getInstance()));
   SERIAL_LOGGER(GET_UINT_PTR(&KernelX::getInstance()));
   SERIAL_LOGGER("DDDDD");

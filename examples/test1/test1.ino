@@ -33,5 +33,5 @@ void loop() {
   SERIAL_LOGGER("+++++++++++++++++++++++++++++");
   Kernel::getInstance()->showPointer();
   SERIAL_LOGGER("+++++++++++++++++++++++++++++");
-  delay(1000);
+  delay(3000);
 }
