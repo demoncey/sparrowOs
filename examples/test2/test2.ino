@@ -1,15 +1,16 @@
 #include <kernelx.h>
 #include <logger.h>
-KernelX a;
+//KernelX a;
 void setup() {
   // put your setup code here, to run once:
   INIT_SERIAL_LOGGER;
+  KernelX *a=new KernelX();
 
 }
 
 void loop() {
 
-  //getMemStruct();
+  getMemStruct();
   SERIAL_LOGGER(GET_HEX_PTR(&KernelX::getInstance()));
   SERIAL_LOGGER(GET_UINT_PTR(&KernelX::getInstance()));
   SERIAL_LOGGER("DDDDD");

@@ -14,9 +14,9 @@ class KernelX
   private:
     //mem leak
     //static KernelX instance;
-    
-  public:
     KernelX();
+  public:
+    
     static KernelX &getInstance();
     KernelX(KernelX const&)= delete;
     void operator=(KernelX const&)  = delete;
