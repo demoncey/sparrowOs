@@ -7,7 +7,7 @@ void KernelX::checkIfworks(){
 
 
 void KernelX::showPointer(){
-    SERIAL_LOGGERX(GET_HEX_PTR(&instance));
+    SERIAL_LOGGERX(GET_HEX_PTRX(&instance));
 }
 
 Kernel& Kernel::getInstance(){
