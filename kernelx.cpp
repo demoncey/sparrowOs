@@ -11,12 +11,12 @@ void KernelX::showPointer(){
     SERIAL_LOGGER(GET_HEX_PTR(this));
 }
 
-Kernel& Kernel::getInstance(){
+KernelX& KernelX::getInstance(){
   static KernelX instance;
   return instance;
 }
 
-Kernel::Kernel(){}
+KernelX::KernelX(){}
 
 
 
