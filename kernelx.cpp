@@ -2,7 +2,7 @@
 
 
 void KernelX::checkIfworks(){
-	SERIAL_LOGGER("works fine!!!!!");
+	SERIAL_LOGGERX("works fine!!!!!");
 }
 
 
