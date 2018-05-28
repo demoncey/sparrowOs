@@ -9,7 +9,7 @@ void setup() {
 
 void loop() {
 
-  showMemory()
+  getMemStruct();
   SERIAL_LOGGER(GET_HEX_PTR(&KernelX::getInstance()));
   SERIAL_LOGGER(GET_UINT_PTR(&KernelX::getInstance()));
   SERIAL_LOGGER("DDDDD");
